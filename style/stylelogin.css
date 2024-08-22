@@ -4,7 +4,7 @@
 .inicios{
   margin-right: 50%;
 }
-.form{
+.form {
   position: relative;
   background: #FFFFFF;
   max-width: 360px;
@@ -13,7 +13,10 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   border-radius:15px;
 }
-.form input {
+.form-login{
+  color: black;
+}
+.form .form-login {
   outline: 0;
   background: #f2f2f2;
   width: 100%;

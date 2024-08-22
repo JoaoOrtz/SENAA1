@@ -16,20 +16,20 @@ function validarCredenciales(){
 
     //validaciones
     if(nombre.trim() == "" || apellido.trim() == "" || numero.trim() == "" || edad.trim() == "" || correo.trim() == ""){
-        alert("Verifique su infomación")
+        alert("Verifique su infomación");
     }//Validacion de caracteres dek numero
     else if(contador > 10){
-        alert("Verifique su infomación")
+        alert("Verifique su infomación");
     }//Validacion de edad
     else if(edad < 18){
-        alert("Eres menor de edad")
+        alert("Eres menor de edad");
     }//Validacion el correo
     else if(!correo.includes("@gmail.com")){
-        alert("Verifique su correo")
+        alert("Verifique su correo");
     }
     else{
-        window.location.href = "file:///C:/Users/Joao/Desktop/SENA/1-TRIMESTRE/HTML,CSS,FRAMEWORK/29-07-2024/index.html"  
+        window.location.href = "file:///C:/Users/Joao/Desktop/SENA/1-TRIMESTRE/HTML,CSS,FRAMEWORK/Actividad2/SENAA1/index.html#inicio"  
+        document.getElementById("loginForm").reset();
     }
-    
 }
   
