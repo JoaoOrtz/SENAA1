@@ -1,14 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:300);
-
-body {
-  background: linear-gradient(90deg, rgb(41, 214, 162) 0%, rgb(6, 138, 87) 50%);
-  font-family: "Poppins";    
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100vh ;
+#login{
+  margin-left: 32%;
 }
-.form {
+.inicios{
+  margin-right: 50%;
+}
+.form{
   position: relative;
   background: #FFFFFF;
   max-width: 360px;
